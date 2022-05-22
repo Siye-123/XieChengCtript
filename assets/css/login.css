@@ -1,0 +1,290 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    font: 12px/1.5 PingFangSC-Regular,"Microsoft YaHei",SimSun,Tahoma,Verdana,Arial,sans-serif;
+}
+.lg_hd{
+    width:1000px;
+    height:90px;
+    margin:0 auto;
+}
+.lg_logo{
+    width:203px;
+    height: 34px;
+    padding-top:22px;
+}
+.lg_help{
+    float:right;
+    padding-right:35px;
+    box-sizing: border-box;
+    line-height: 90px;
+}
+.lg_help a{
+    color:rgba(0, 0, 0, 0.651);
+    font-size: 12px;
+    
+}
+.lg_help a:hover{
+    color: #3882E5;
+}
+.lg_tip{
+    width: 100%;
+    height:31.65px;
+    background-color: #FFFCD8;
+    padding:7px;
+    box-sizing: border-box;
+    text-align: center;
+    font: 12px/1.5 PingFangSC-Regular,"Microsoft YaHei",SimSun,Tahoma,Verdana,Arial,sans-serif;
+    color:#666;
+    position:absolute;
+}
+.lg_tip a{
+    color:#666;
+}
+.lg_tip a:hover{
+    text-decoration: underline;
+}
+.lg_tip img{
+    width:15px;
+    height:15px;
+    position:relative;
+    top:3px;
+}
+.lg_content{
+    width: 1920px;
+    height:540px;
+    background-image: url("../img/login.img/lg_bg.jpg");
+    position:absolute;
+    top:121.9px;
+    left:-290px;
+}
+.lg_text{
+    opacity: 0.3;
+    width:32px;
+    height:20px;
+    border-top-right-radius:4px;
+    background-color:black;
+    position:absolute;
+    bottom:0px;
+    left:290px;
+}
+.lg_text span{
+    display:inline-block;
+    opacity: 0.9;
+    font: 12px PingFangSC-Regular,"Microsoft YaHei",SimSun,Tahoma,Verdana,Arial,sans-serif;
+    color: rgb(255, 255, 255);
+    padding:0px 4px;
+    text-align: center;
+}
+.lg_wrap{
+    width:380px;
+    height:427px;
+    background-color:white;
+    margin-top:40px;
+    position: absolute;
+    top:10px;
+    left:990px;
+    border-radius: 4px;
+    /* min-height:370px; */
+
+}
+.lg_box{
+    padding:30px 30px 20px 30px;
+}
+.lg_box_title{
+    display: block;
+    font-size:18px;
+    font-weight:400px;
+    line-height: 1;
+    position:absolute;
+    padding-bottom: 16px;
+}
+.lg_box_title a{
+    color:#666;
+    position:relative;
+    top:-5px;
+    right:-137px;
+}
+.lg_box_title a:hover{
+    text-decoration: underline;
+}
+.lg_box_title i{
+    font-family: Simsun;
+    font-size: 13px;
+    font-weight: 700;
+    color:#666;
+}
+.lg_box>div{
+    width:320px;
+    height:34px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+}
+.card_ipt{
+    width:300px;
+    height:28px;
+    padding:5px 5px 5px 13px;
+    border:1px solid #ccc;
+    font-size:14px;
+    color:#ccc;
+    font-weight: 400;
+    font-family: "Microsoft YaHei",SimSun,Tahoma,Verdana,Arial,sans-serif;
+}
+.pwd_ipt{
+    display:inline-block;
+    width:200px;
+    height:28px;
+    padding:5px 103px 5px 13px;
+    border:1px solid #ccc;
+    font-size: 14px;
+    color:#ccc;
+    position: absolute;
+}
+
+.lg_box_form >dl{
+    padding:8px 0px;
+    
+}
+.lg_pwd>dl{
+    padding:8px 0px;
+}
+.lg_pwd a{
+    position:relative;
+    top:11px;
+    left:250px;
+    color:#666;
+}
+.lg_pwd a:hover{
+    text-decoration: underline;
+}
+.login_set{
+    margin:4px 0px 13px 0px;
+    padding-top:24px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    width: 320px;
+    height:18px;
+    color:#666;
+}
+.login_set a{
+    padding-left: 110px;
+    color:#666;
+    position:absolute;
+}
+.login_entry_dynamic i{
+    position:relative;
+    top:1px;
+}
+.auto_login input{
+    position:relative;
+    top:2px;
+}
+
+.lg_form_btn{
+    width:320px;
+    height:42px;
+    background-color: #FF9A14;
+    color:white;
+    font-size: 16px;
+    border-radius: 4px;
+    border:none;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.lg_form_btn:hover{
+    background-color: #b16707a6;
+}
+.agreement-checkbox{
+    position:relative;
+    top:2px
+}
+.agreement-list{
+    text-align: center;
+    color:#999999;
+    font-size: 12px;
+}
+.agreement-list a{
+    color:#999999;
+    cursor: pointer;
+    border-bottom: 1px dotted #999;
+}
+.lg_box_f{
+    width:320px;
+    height:62px;
+    margin-top:52px;
+}
+.lg_box_f1 li{
+    display: inline;
+    list-style: none;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.lg_box_f1 li:hover{
+    text-decoration: underline;
+}
+.lg_box_ficon li{
+    list-style: none;
+    display:inline-block;
+    padding:20px 20px 0 10px;
+    cursor: pointer;
+}
+#icon-zhifubao:hover{
+    color:rgb(8, 200, 214);
+    transform: scale(1.5);
+}
+#icon-qq:hover{
+    color:blue;
+    transform: scale(1.5);
+}
+#icon-baidu:hover{
+    color:blue;
+    transform: scale(1.5);
+}
+#icon-weibo:hover{
+    color:red;
+    transform: scale(1.5);
+}
+#icon-weichat:hover{
+    color:green;
+    transform: scale(1.5);
+}
+.lg_box_f1 span{
+    color:#999;
+    padding:0 10px;
+}
+.lg_box_f1 a{
+    text-decoration: none;
+    padding-left:80px;
+    color: #3882E5;
+}
+.lg_box_f1 a:hover{
+    text-decoration: underline;
+}
+.lg_footer{
+    margin-top:55px;
+    border-top:1px dashed #9ECCF5;
+    padding-top: 20px;
+    position:absolute;
+    bottom:0px;
+    left:168.5px;
+}
+.lg_ft{
+    width:980px;
+    clear:both;
+    text-align: center;
+    margin:0 auto 20px;
+    line-height: 1.5;
+    color:#4c4c4c;
+    font-size: 12px;
+}
+.lg_ft a{
+    
+    color:#4c4c4c;
+    font-size: 12px;
+}
+.lg_ft a:hover{
+    text-decoration: underline;
+}

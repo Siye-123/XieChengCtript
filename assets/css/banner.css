@@ -1,0 +1,223 @@
+.banner{
+    width:var(--themeMinWidth);
+    height:340px;
+    background-color: bisque;
+    margin-top: 24px;
+    position:relative;
+}
+
+.b_main {
+    width:var(--themeMinWidth);
+    height:340px;
+    position: relative;
+}
+
+.b_main .b_m_pic {
+    width:var(--themeMinWidth);
+    height:340px;
+    background-image: url("../img/index.pic/banner1.jpg");
+}
+
+.b_main .b_m_pic ul li {
+    position: absolute;
+    top:0px;
+    left:0px;
+    display: none;
+}
+
+/* .b_main .b_m_tab {
+    width:100px;
+    height: 10px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.b_main .b_m_tab ul li {
+    float:left;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.4);
+    /* background-color: rgb(0 0 0 / 0.4); */
+    /* border: 2px solid rgba(255, 255,255, 0.3);
+    margin:0px 4px;
+    cursor: pointer;
+} */
+
+.b_main .b_m_tab ul li:hover,
+.b_main .b_m_tab ul li.clicked
+{
+    background-color: rgba(255,255,255,0.4);
+    border-color:rgba(0,0,0,0.4);
+} */
+
+
+
+#b_nav{
+    width:235px;
+    height:420px;
+    background:rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    padding:20px 0;
+}
+
+#b_nav>ul>li{
+    height:42px;
+    line-height:42px;
+}
+
+#b_nav>ul>li:hover{
+    background:#f60;
+}
+
+#b_nav>ul>li>a{
+    height:42px;
+    display:block;
+    padding-left:30px;
+    font-size:14px;
+    color:#fff;
+}
+
+
+
+.b_form{
+    width:580px;
+    height:300px;
+    margin:20px 0 20px 68.7px;
+    background-color: #fff; 
+    display: inline-block;
+    position:absolute;
+    top:0px;
+    left:0px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+}
+.b_form_left{
+    background-color: #2577e3;
+    width:90px;
+    height:300px;
+    float:left;
+}
+.b_form_left li{
+    list-style:none;
+    width:94px;
+    height:43px;
+    border-left:4px solid #2577e3;
+    padding:0px 17px 0px 13px;
+    box-sizing: border-box;
+}
+.b_form_left li b{
+    display:block;
+    font-size: 15px;
+    color:white;
+    width:60px;
+    height:42px;
+    border-bottom:1px dashed white;
+    line-height: 42px;
+}
+.b_form_left li:hover{
+    background-color: white;
+    color:#2577e3;
+    border-left: 4px solid #ff9915;
+}
+.b_form_left li b:hover{
+    color:#2577e3;
+    border:none;   
+}
+.b_form_left li:first-child{
+    border-left: 4px solid #ff9915;
+    background-color: white;
+}
+.b_form_left li:first-child b{
+    color:#2577e3;  
+}
+.b_form_left_last b{
+    border: none !important;
+}
+
+.b_form_right{
+    width:450px;
+    height:275px;
+    padding:20px 20px 5px 20px;
+    float:right;
+}
+.b_f_title{
+    width:451px;
+    height:27px;    
+    border-bottom: 2px solid #999999;      
+}
+.b_f_title a{
+    width:56px;
+    height:25px;
+    font-size: 14px;
+    font-weight:bold;
+    color: #06c;       
+}
+.b_f_title li{
+    display:inline-block;
+    list-style: none;
+    width:56px;
+    height:25px;
+}
+.b_f_t_fir{
+    margin-right:20px;
+    border-bottom:3px solid #06c;
+}
+.b_f_t_sec a{
+    color:#666;
+}
+.b_f_t_sec a:hover{
+    color: #06c;
+}
+.b_form_ipt tr{
+    width:451px;
+    height:40px;
+    
+}
+.b_w_ipt{
+    width: 383px !important;;
+}
+.b_form_ipt input{
+    border:0.5px solid #666;
+    box-shadow: 1px 1px 1px #ddd inset;
+    margin-left:10px;
+    width:143px;
+    height:28px;
+    padding-left:3px;
+    box-sizing: border-box;
+}
+.b_form_ipt td select{
+    margin-left:10px;
+    width:143px;
+    height:28px;
+    padding-left:3px;
+    box-sizing: border-box;
+}
+.b_form_ipt tr>td{
+    width:86px;
+    height:41px;
+    text-align: right;
+    
+}
+#b_ser{
+    width:145px;
+    height:33px;
+    text-align: center;
+    font-weight: 700px;
+    font-size: 16px;
+    color:white;
+    letter-spacing: .4em;
+    text-indent: .4em;
+    box-shadow: 0 1px 0 rgba(95,50,0,.7);
+    border-radius: 3px;
+    overflow: visible;
+    text-shadow: 1px 1px 0 #cf7000;
+    background-color: #ffb000;
+    border: 1px solid #e77c00;
+    margin-top: 25px;
+}
+#b_ser:hover{
+    background-color: #df8e32c2;
+}
